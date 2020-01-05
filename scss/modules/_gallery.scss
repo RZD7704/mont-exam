@@ -1,0 +1,39 @@
+.gallery__block {
+    text-align: center;
+}
+
+.gallery__title {
+    font-size: 44px;
+    font-weight: 600;
+    margin-top: 180px;
+    width: 100%;
+}
+
+.gallery__button {
+    text-decoration: none;
+    border: 2px solid black;
+    font-size: 14px;
+    padding: 20px 45px;
+    color: black;
+    width: 180px;
+    margin-bottom: 50px;
+}
+
+.gallery__button:hover {
+    background: black;
+    color: #fff;
+}
+
+.gallery__button a {
+    text-decoration: none;
+    color: black;
+}
+
+.photos {
+    margin-top: 90px;
+    margin-bottom: 90px;
+
+    > div {
+        overflow: hidden;
+    }
+}

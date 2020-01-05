@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="description" content="Starter">
+	<meta name="author" content="Admin">
+	<title>Starter</title>
+
+	<link rel="icon" href="images/favicon.png">
+
+	<link rel="stylesheet" href="css/libs/bootstrap-grid.min.css">
+
+	<!-- SLIDER -->
+	<link rel="stylesheet" href="js/libs/slick/slick.css">
+	<link rel="stylesheet" href="js/libs/slick/slick-theme.css">
+	<link rel="stylesheet" href="js/libs/fancybox/jquery.fancybox.min.css">
+	<link rel="stylesheet" href="css/styles.min.css">
+
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<ul class="fixed-nav">
+		<li>
+		  <a href="#head" data-menu="head">
+			<span>Home</span>
+		  </a>
+		</li>
+		<li>
+		  <a href="#about" data-menu="about">
+			<span>About</span>
+		  </a>
+		</li>
+		<li>
+		  <a href="#news" data-menu="news">
+			<span>News</span>
+		  </a>
+		</li>
+		<li>
+		  <a href="#gallery" data-menu="gallery">
+			<span>Gallery</span>
+		  </a>
+		</li>
+		<li>
+		  <a href="#map" data-menu="map">
+			<span>Map</span>
+		  </a>
+		</li>
+	</ul>
+
+	<section class="head" id="head">
+		<div class="container">
+			<div class="row header">
+				<a class="header__logo" href="#">
+					<svg class="icon header__logo--svg">
+						<use xlink:href="images/sprite.svg#logo"></use>
+					</svg>
+				</a>
+				<nav class="header__navigation">
+					<ul class="header__navigation--menu">
+						<li class="header__navigation--link">
+							<div class="point"></div>
+							<a class="link-item" href="#">About us</a>
+						</li>
+						<li class="header__navigation--link">
+							<div class="point"></div>
+							<a class="link-item" href="#">Projects</a>
+						</li>
+						<li class="header__navigation--link">
+							<div class="point"></div>
+							<a class="link-item" href="#">News</a>
+						</li>
+						<li class="header__navigation--link">
+							<div class="point"></div>
+							<a class="link-item" href="#">Contact</a>
+						</li>
+					</ul>
+				</nav>
+				<a class="header__svg" href="#">
+					<svg class="icon header__svg--tab1">
+						<use xlink:href="images/sprite.svg#facebook"></use>
+					</svg>
+					<svg class="icon header__svg--tab2">
+						<use xlink:href="images/sprite.svg#twitter"></use>
+					</svg>
+					<svg class="icon header__svg--tab3">
+						<use xlink:href="images/sprite.svg#instagram"></use>
+					</svg>
+				</a>
+				
+			</div>
+
+			<div class="main">
+				<div class="main__text">
+					<h1 class="main__text--h1">
+						Simple & mordern
+					</h1>
+					<p class="main__text--p">
+						We make the world's beautiful every day
+					</p>
+				</div>
+				<a class="main__svg" href="#">
+					<svg class="icon main__svg--tab">
+						<use xlink:href="images/sprite.svg#arrow-down"></use>
+					</svg>
+				</a>
+			</div>
+		</div>
+	</section>
+
+	<section class="about" id="about">
+		<h1 class="trade--h1">WHAT WE DO</h1>
+		<div class="about__block"></div>
+		<div class="container">
+			<div class="row">
+				<div class="trade">
+					<div class="trade__foto col-md-6">
+						<img class="trade__foto--img" src="images/about-1.jpg" alt="Foto">
+					</div>
+
+					<div class="trade__info offset-1 col-md-5">
+						<h2 class="trade__info--h2">One World</h2>
+						<h3 class="trade__info--h3">Trade Center</h3>
+						<p class="trade__info--p">Increasing prosperity in our lives can be accomplished by having the right frame of mind. The truth is, our thoughts are very powerful.</p>
+						<a class="trade__info--button" href="#">MORE DETAILS</a>
+						<p class="trade__info--span">New York City, United States - 1776 feet</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="trade">
+					<div class="trade__info  col-md-5">
+						<h2 class="trade__info--h2">International</h2>
+						<h3 class="trade__info--h3">Commerce Centre</h3>
+						<p class="trade__info--p">Successful businesses have many things in common, today we’ll look at the big ‘R’ of recognition and how a digital advertising network may help.</p>
+						<a class="trade__info--button" href="#">MORE DETAILS</a>
+						<p class="trade__info--span">Hong Kong - 1588 Feet</p>
+					</div>
+
+					<div class="trade__foto offset-1 col-md-6">
+						<img class="trade__foto--img" src="images/about-2.jpg" alt="Foto">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="vew" id="news">
+		<h3 class="vew--h3">latest news</h3>
+		<div class="container">
+			<div class="row ">
+				<div class="sl">
+					<div class="sl__slide col-md-4">
+						<img src="images/news/1.jpg" alt="Картинка слайда №1" class="sl__img">
+						<div class="sl__text">
+							<h3 class="sl__zag">Слайд 1</h3>
+							<p class="sl__desc">Описание слайда №1</p>
+						</div>
+					</div>
+					<div class="sl__slide col-md-4">
+						<img src="images/news/2.jpg" alt="Картинка слайда №2" class="sl__img">
+						<div class="sl__text">
+							<h3 class="sl__zag">Слайд 2</h3>
+							<p class="sl__desc">Описание слайда №2</p>
+						</div>
+					</div>
+					<div class="sl__slide col-md-4">
+						<img src="images/news/3.jpg" alt="Картинка слайда №3" class="sl__img">
+						<div class="sl__text">
+							<h3 class="sl__zag">Слайд 3</h3>
+							<p class="sl__desc">Описание слайда №3</p>
+						</div>
+					</div>
+					<div class="sl__slide col-md-4">
+						<img src="images/news/4.jpg" alt="Картинка слайда №4" class="sl__img">
+						<div class="sl__text">
+							<h3 class="sl__zag">Слайд 4</h3>
+							<p class="sl__desc">Описание слайда №4</p>
+						</div>
+					</div>
+					<div class="sl__slide col-md-4">
+						<img src="images/news/5.jpg" alt="Картинка слайда №5" class="sl__img">
+						<div class="sl__text">
+							<h3 class="sl__zag">Слайд 5</h3>
+							<p class="sl__desc">Описание слайда №5</p>
+						</div>
+					</div>
+					<div class="sl__slide col-md-4">
+						<img src="images/news/6.jpg" alt="Картинка слайда №6" class="sl__img">
+						<div class="sl__text">
+							<h3 class="sl__zag">Слайд 6</h3>
+							<p class="sl__desc">Описание слайда №6 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem consectetur quas cupiditate id quibusdam impedit quos quis autem tenetur amet repellendus, dolore facilis, ab voluptas nam necessitatibus, suscipit ex laudantium.</p>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</div>
+	</section>
+
+	<section class="gallery" id="gallery">
+		<div class="container">
+			<div class="row gallery__block">
+				<h1 class="gallery__title">Gallery</h1>
+			</div>
+
+
+			<div class="row photos">
+				<div class="col-6">
+					<a data-fancybox="img-photo" class="photo photo--big" href="images/gallery/1-big.jpg" data-caption="My beautiful image">
+						<img src="images/gallery/1.jpg" alt="Gallery Item">
+					</a>
+				</div>
+				
+				<div class="col-3">
+					<a data-fancybox="img-photo" class="photo" href="images/gallery/2-big.jpg">
+						<img src="images/gallery/2.jpg" alt="Gallery Item">
+					</a>
+					<a data-fancybox="img-photo" class="photo" href="images/gallery/3-big.jpg">
+						<img src="images/gallery/3.jpg" alt="Gallery Item">
+					</a>
+				</div>
+
+				<div class="col-3">
+					<a data-fancybox="img-photo" class="photo" href="images/gallery/4-big.jpg">
+						<img src="images/gallery/4.jpg" alt="Gallery Item">
+					</a>
+					<a data-fancybox="img-photo" class="photo" href="images/gallery/5-big.jpg">
+						<img src="images/gallery/5.jpg" alt="Gallery Item">
+					</a>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="offset-5 gallery__button">
+					<a href="#" class="button button--blue">SEE MORE</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="map" id="map">
+
+	</section>
+
+  
+
+
+	<!-- Scripts -->
+	<script src="js/libs/jquery-3.4.1.min.js"></script>
+	<script src="js/libs/fancybox/jquery.fancybox.min.js"></script>
+	<script src="js/libs/slick/slick.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC_bCxCu4Vdx87syd2U_RqqzBUIV6G0EgA&callback=initMap"
+    async defer></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

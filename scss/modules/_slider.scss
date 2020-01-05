@@ -1,0 +1,43 @@
+.vew {
+    background:  url('../images/bg-news.jpg') no-repeat top center;
+    background-attachment: fixed;
+	height: 100vh;
+	position: relative;
+	background-size: 100%;
+}
+
+.vew--h3 {
+    font: bold 44px $sans;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.sl {
+    margin-top: 50px;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    left: 0;
+}
+
+.sl__slide img {
+    width: 100%;
+}
+
+
+.sl__text {
+    // position: absolute;
+    bottom: 0;
+    background: #fff;
+    height: 200px;
+    text-align: center;
+}
+
+.slick-dots li.slick-active button:before {
+    color: white;
+}
+
+.slick-dots li button:before {
+    color: blue;
+}

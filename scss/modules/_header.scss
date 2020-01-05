@@ -1,0 +1,238 @@
+.head{
+    background:  url('../images/bg-header.jpg') no-repeat top center;
+    background-attachment: fixed;
+	height: 100vh;
+	position: relative;
+	background-size: 100%;
+}
+.header {
+    display: flex;
+
+    &__logo {
+        fill: #E5E5E5;
+    }
+
+    &__logo:hover {
+        fill: white;
+    }
+
+    &__logo--svg {
+        width: 245px;
+        left: 0;
+        padding-right: 80px;
+    }
+
+    &__navigation--menu {
+        display: flex;
+        text-align: center;
+    }
+
+    &__navigation--link {
+        padding-right: 85px;
+        padding-top: 70px;
+        text-transform: uppercase;
+        display: flex;
+    }
+
+
+    &__navigation--link:last-child {
+        padding-right: 17px;
+    }
+
+    .point {
+        color: #E5E5E5;
+        box-shadow: inset 0 0 0 1px rgba(229, 229, 229, .8);
+        border-radius: 50%;
+        align-self: center;
+        position: relative;
+        width: 8px;
+        height: 8px;
+        margin-right: 14px;
+    }
+
+    .point:hover {
+        background-color: white;
+    }
+
+    &__navigation--link a {
+        text-decoration: none;
+        color: #E5E5E5;
+        display: inline-block;
+        position: relative;
+    }
+
+    &__navigation--link a:hover {
+        color: white;
+        transition: all .3s;
+    }
+
+    &__svg {
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        width: 20%;
+    }
+
+    &__svg--tab1 {
+        color: #E5E5E5;
+        margin-right: 20px;
+        width: 2em;
+        height: 2em;
+        box-shadow: inset 0 0 0 1px rgba(229, 229, 229, .8);
+        text-align: center;
+        border-radius: 50%;
+        padding: 7px;
+        font-size: 17px;
+        align-self: center;
+        margin: 4%;
+        transition: box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+        display: inline-block;
+        position: relative;
+    }
+
+    &__svg--tab1:hover {
+        color: #7d5efa;
+        background-color: white;
+    }
+
+    &__svg--tab2 {
+        color: #E5E5E5;
+        margin-right: 20px;
+        width: 2em;
+        height: 2em;
+        box-shadow: inset 0 0 0 1px rgba(229, 229, 229, .8);
+        text-align: center;
+        border-radius: 50%;
+        padding: 7px;
+        font-size: 17px;
+        align-self: center;
+        margin: 4%;
+        transition: box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+        display: inline-block;
+        position: relative;
+    }
+
+    &__svg--tab2:hover {
+        color: #7d5efa;
+        background-color: white;
+    }
+
+    &__svg--tab3 {
+        right: 0;
+        color: #E5E5E5;
+        margin-right: 0;
+        width: 2em;
+        height: 2em;
+        box-shadow: inset 0 0 0 1px rgba(229, 229, 229, .8);
+        text-align: center;
+        border-radius: 50%;
+        padding: 7px;
+        font-size: 17px;
+        align-self: center;
+        margin: 4%;
+        transition: box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+        display: inline-block;
+        position: relative;
+    }
+
+    &__svg--tab3:hover {
+        color: #7d5efa;
+        background-color: white;
+    }
+
+
+
+}
+
+.fixed-nav {
+    position: fixed;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    z-index: 9;
+    
+    a {
+        display: block;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: rgba(0, 0, 0, .3);
+        position: relative;
+        text-decoration: none;
+        margin-bottom: 10px;
+        transition: all .3s;
+        color: grey; 
+        
+        &:hover,
+        &.active {
+            color: white;
+            background: white;
+        }
+    }
+
+    span {
+        transition: all .5s;
+        position: absolute;
+        right: -100px;
+    }
+
+    a:hover span,
+    a.active span {
+        right: 40px;
+        opacity: 1;
+    }
+
+}
+
+.main {
+    &__text {
+        text-transform: uppercase;
+        color: #E5E5E5;
+    }
+
+    &__text--h1 {
+        font-weight: 700;
+        font-size: 80px;
+        text-align: center;
+        margin-top: 180px;
+    }
+
+    &__text--p {
+        font-size: 18px;
+        margin-top: 35px;
+        text-align: center;
+    }
+
+    &__svg {
+        position: absolute;
+        bottom: 6%;
+        left: 50%;
+        transform: translateX(-50%);
+        animation: 2s ease-in-out 0s infinite normal none running scroll;
+    }
+
+    &__svg--tab {
+        color: #E5E5E5;
+        margin-right: 20px;
+        width: 2em;
+        height: 2em;
+        box-shadow: inset 0 0 0 1px rgba(229, 229, 229, .8);
+        text-align: center;
+        border-radius: 50%;
+        padding: 12px;
+        font-size: 23px;
+        align-self: center;
+        margin: 4%;
+        transition: box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+        display: inline-block;
+        position: relative;
+        fill: red;
+        margin: 0 auto;
+    }
+
+    &__svg--tab:hover {
+        color: #7d5efa;
+        background-color: white;
+    }
+}
+
